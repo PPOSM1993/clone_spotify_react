@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import Sidebar from './components/Sidebar'
+import Player from './components/Player'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <div className='h-[90%] flex'>
         <Sidebar/>
       </div>
+      <Player/>
     </div>
   )
 }
